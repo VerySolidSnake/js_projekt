@@ -1,0 +1,56 @@
+/* ELEMENTY HTML */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lobster', cursive;
+    background-color: #f3f3f3;
+}
+main header {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    transform: rotate(-10deg);
+    padding-top: 5vw;
+}
+main header h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+section{
+    text-align: center;
+}
+/* ID */
+#wrapper{
+    padding-top: 100px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+/* KLASY */
+.cup{
+    width: 300px;
+    height: 310px;
+    display: inline-block;
+    margin: 20px 30px;
+    position: relative;
+    border: 3px solid black;
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cup div{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    transition: height 0.5s ease-in-out;
+}
+/* ANIMACJE */
+
+/* MEDIA QUERY */
+
+/* EVENTY :HOVER */
