@@ -3,7 +3,7 @@
 <h2>Languages used:</h2>
 <li>Html</li>
 <li>Css</li>
-<li>Javascript</li>
+<li>JS</li>
 
 <h2>Frameworks used:</h2>
 <li>None</li>
